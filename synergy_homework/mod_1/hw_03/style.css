@@ -1,0 +1,42 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    background-color: rgb(164, 148, 255);
+    font-weight: bolder;
+    font-size: 64px;
+}
+
+p {
+    color: rgba(130, 46, 110, 0.77);
+    font-size: 24px;
+    border: 2px solid rebeccapurple;
+    padding: 20px 20px 40px 40px;
+}
+
+#text1 {
+    color: black;
+    background-color: beige;
+}
+
+#text2 {
+    color: darkslategrey;
+    background-color: lavender;
+}
+
+.add_inf {
+    color: brown;
+    background-color: orange;
+}
+
+a {
+    background-color: bisque;
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+}

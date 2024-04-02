@@ -1,0 +1,52 @@
+body {
+	color: #fbf1c7;
+    background: #282828;
+}
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100px;
+    align-items: center;
+    padding: 0 0.3em;
+    display: flex;
+    height: 2em;
+    width: 70%;
+}
+.progress-value {
+    border-radius: 100px;
+    background: #9d0006;
+    height: 1.5em;
+	box-shadow: 0 10px 20px -10px #ba4b47;
+}
+.animation70 {
+    animation: load70 3s normal forwards;
+}
+.animation85 {
+	animation: load85 3s normal forwards;
+}
+.animation95 {
+	animation: load95 3s normal forwards;
+}
+@keyframes load70 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes load85 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 85%;
+    }
+}
+@keyframes load95 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 95%;
+    }
+}

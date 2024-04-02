@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+body *:not(#page) {
+    padding: 25px;
+    margin: 10px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#page > main {
+    flex: 1;
+}
+
+#page > aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    max-width: 20%;
+}
+
+#page > aside > * {
+    background-color: #c4f9a6;
+    border-color: #91ca71;
+}
+
+#page > aside > nav {
+    flex: 1;
+}
+
+#page > main > article {
+    background-color: #c4f9a6;
+    border-color: #91ca71;
+}
+
+#page > main > article > * {
+    background-color: #c4f9a6;
+    border-color: #6ca1d0;
+}

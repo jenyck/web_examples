@@ -1,0 +1,19 @@
+div.forms-container { /* большой контейнер для форм */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+div.form { /* сами формы */
+    width: 500px;
+    padding: 10px;
+}
+button { /* сама кнопка */
+    margin: 50px;
+    padding: 8px 16px;
+}
+div.button { /* контейнер для кнопки (регулировать положение) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
